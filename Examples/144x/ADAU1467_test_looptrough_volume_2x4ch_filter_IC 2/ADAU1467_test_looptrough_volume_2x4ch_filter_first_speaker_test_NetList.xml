@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright © 2018 Analog Devices, Inc. All rights reserved.
+ */
+-->
+<!--NetList XML file-->
+<NetList>
+    <IC name=" IC 1 " type="ADAU1467">
+        <Schematic>
+            <Algorithm name="ICInput3ADAU145X1" friendlyname="ADAU145x Inputs 32-39" cell="Input1 ">
+                <Link pin="O_C0_A0_P1_out" dir="out" link="Link0" />
+                <Link pin="O_C0_A0_P2_out" dir="out" link="Link1" />
+            </Algorithm>
+            <Algorithm name="HWGainADAU145XAlg1" friendlyname="Gain (HW slew)" cell="Single 1 ">
+                <Link pin="I_C21_A0_P1_in" dir="in" link="Link0" />
+                <Link pin="I_C21_A0_P3_in" dir="in" link="Link1" />
+                <Link pin="O_C21_A0_P2_out" dir="out" link="Link2" />
+                <Link pin="O_C21_A0_P4_out" dir="out" link="Link3" />
+            </Algorithm>
+            <Algorithm name="stereoDemuxSlewSigma3001" friendlyname="Stereo HW Slew" cell="2xN-1 ">
+                <Link pin="I_C189_A0_P1_in" dir="in" link="Link2" />
+                <Link pin="I_C189_A0_P2_in" dir="in" link="Link3" />
+                <Link pin="O_C189_A0_P3_out" dir="out" link="Link8" />
+                <Link pin="O_C189_A0_P4_out" dir="out" link="Link9" />
+                <Link pin="O_C189_A0_P5_out" dir="out" link="Link4" />
+                <Link pin="O_C189_A0_P6_out" dir="out" link="Link5" />
+            </Algorithm>
+            <Algorithm name="CrossoverFilter3WayAlgSP_S3002" friendlyname="3-Way Crossover Filter - Single Precision" cell="FilterStage1.Crossover1 ">
+                <Link pin="I_C56_A1_P1_in" dir="in" link="Link9" />
+                <Link pin="O_C56_A1_P2_out" dir="out" link="Link11" />
+                <Link pin="O_C56_A1_P3_out" dir="out" link="Link12" />
+                <Link pin="O_C56_A1_P4_out" dir="out" link="Link13" />
+            </Algorithm>
+            <Algorithm name="CrossoverFilter3WayAlgSP_S3001" friendlyname="3-Way Crossover Filter - Single Precision" cell="FilterStage1.Crossover1 ">
+                <Link pin="I_C56_A0_P1_in" dir="in" link="Link8" />
+                <Link pin="O_C56_A0_P2_out" dir="out" link="Link6" />
+                <Link pin="O_C56_A0_P3_out" dir="out" link="Link7" />
+                <Link pin="O_C56_A0_P4_out" dir="out" link="Link10" />
+            </Algorithm>
+            <Algorithm name="ICOutADAU145X1" friendlyname="Output" cell="Output1 ">
+                <Link pin="I_C9_A0_P1_in" dir="in" link="Link6" />
+                <Link pin="I_C9_A0_P2_in" dir="in" link="Link11" />
+                <Link pin="I_C9_A0_P3_in" dir="in" link="Link7" />
+                <Link pin="I_C9_A0_P4_in" dir="in" link="Link12" />
+                <Link pin="I_C9_A0_P5_in" dir="in" link="Link10" />
+                <Link pin="I_C9_A0_P6_in" dir="in" link="Link13" />
+                <Link pin="I_C9_A0_P7_in" dir="in" link="Link4" />
+                <Link pin="I_C9_A0_P8_in" dir="in" link="Link5" />
+            </Algorithm>
+        </Schematic>
+    </IC>
+</NetList>

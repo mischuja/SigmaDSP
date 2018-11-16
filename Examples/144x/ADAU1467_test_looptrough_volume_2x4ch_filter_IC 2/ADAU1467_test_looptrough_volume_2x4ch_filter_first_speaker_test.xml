@@ -1,0 +1,2993 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright ©2018 Analog Devices, Inc. All rights reserved.
+ */
+-->
+<!--SigmaStudio export XML file-->
+<Schematic>
+    <IC>
+        <Name>IC 1</Name>
+        <PartNumber>ADAU1467</PartNumber>
+        <Register>
+            <Name>__SafeLoad_Module__data_SafeLoad</Name>
+            <Address>24576</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>20</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__SafeLoad_Module__address_SafeLoad</Name>
+            <Address>24581</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__SafeLoad_Module__num_SafeLoad_lower</Name>
+            <Address>24582</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__SafeLoad_Module__num_SafeLoad_upper</Name>
+            <Address>24583</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOFT_RESET</Name>
+            <Address>63632</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOFT_RESET</Name>
+            <Address>63632</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Reset Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Hibernate Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_ENABLE</Name>
+            <Address>61443</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CTRL1 Register</Name>
+            <Address>61441</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CLK_SRC Register</Name>
+            <Address>61442</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MCLK_OUT Register</Name>
+            <Address>61445</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x05, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_ENABLE Register</Name>
+            <Address>61443</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL Lock Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.POWER_ENABLE0 Register</Name>
+            <Address>61520</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x1F, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.POWER_ENABLE1 Register</Name>
+            <Address>61521</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x1F, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE0</Name>
+            <Address>61824</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE1</Name>
+            <Address>61825</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE2</Name>
+            <Address>61826</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE3</Name>
+            <Address>61827</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE4</Name>
+            <Address>61828</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE5</Name>
+            <Address>61829</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE6</Name>
+            <Address>61830</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE7</Name>
+            <Address>61831</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE8</Name>
+            <Address>61832</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE9</Name>
+            <Address>61833</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE10</Name>
+            <Address>61834</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE11</Name>
+            <Address>61835</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE12</Name>
+            <Address>61836</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE13</Name>
+            <Address>61837</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE14</Name>
+            <Address>61838</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE15</Name>
+            <Address>61839</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE16</Name>
+            <Address>61840</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE17</Name>
+            <Address>61841</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE18</Name>
+            <Address>61842</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE19</Name>
+            <Address>61843</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE20</Name>
+            <Address>61844</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE21</Name>
+            <Address>61845</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE22</Name>
+            <Address>61846</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE23</Name>
+            <Address>61847</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_0_0</Name>
+            <Address>61952</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_1_0</Name>
+            <Address>61956</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_2_0</Name>
+            <Address>61960</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_3_0</Name>
+            <Address>61964</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_4_0</Name>
+            <Address>61968</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_5_0</Name>
+            <Address>61972</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_6_0</Name>
+            <Address>61976</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_7_0</Name>
+            <Address>61980</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_4_ROUTE</Name>
+            <Address>62020</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x08, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_5_ROUTE</Name>
+            <Address>62021</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x30, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_6_ROUTE</Name>
+            <Address>62022</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x31, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_7_ROUTE</Name>
+            <Address>62023</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x32, </Data>
+        </Register>
+        <Program>
+            <Name>Program Data</Name>
+            <Address>49152</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>1160</Size>
+            <Data>0x00, 0x00, 0x00, 0x02, 0x0C, 0x00, 0xDC, 0xDC, 0x0D, 0x00, 0xFF, 0xD2, 0x0D, 0x00, 0xFF, 0xD0, 0x0D, 0x00, 0xF4, 0x50, 0x0D, 0x00, 0xF4, 0x00, 0xC0, 0x00, 0x23, 0x80, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0x00, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0xC0, 0x80, 0x00, 0x00, 0x10, 0xC0, 0x00, 0x22, 0x00, 0x80, 0x00, 0x00, 0x00, 0x08, 0x80, 0xDC, 0xE0, 0x0C, 0x00, 0xDC, 0xDC, 0x0A, 0x21, 0x00, 0x12, 0x08, 0x00, 0x00, 0x10, 0x01, 0x00, 0x00, 0x14, 0x06, 0x40, 0x40, 0x10, 0x0A, 0x21, 0x00, 0x16, 0x08, 0x00, 0x00, 0x14, 0x01, 0x00, 0x00, 0x18, 0x06, 0x40, 0x50, 0x10, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x2B, 0x0D, 0x00, 0xFF, 0xC1, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x01, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x00, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x02, 0x0D, 0x00, 0xFF, 0xD1, 0x00, 0x00, 0x00, 0x03, 0x0D, 0x00, 0xFF, 0xD2, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x01, 0x00, 0x26, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x08, 0x9E, 0xDC, 0xE0, 0x08, 0x9C, 0x00, 0x14, 0x08, 0x9A, 0x00, 0x10, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x4F, 0x00, 0x00, 0x08, 0x8A, 0xDC, 0xE0, 0x0A, 0x23, 0x00, 0x06, 0x0A, 0x2B, 0x00, 0x07, 0x00, 0x88, 0x20, 0x00, 0x0A, 0xA7, 0x00, 0x05, 0x00, 0x00, 0x00, 0x22, 0xC0, 0x00, 0x2D, 0x30, 0x80, 0x00, 0x50, 0x00, 0x30, 0x00, 0xB4, 0x6A, 0x00, 0x88, 0x20, 0x00, 0xC0, 0x00, 0x28, 0x70, 0x80, 0x00, 0x60, 0x00, 0x02, 0x09, 0x00, 0x4C, 0x00, 0x8C, 0x11, 0x91, 0x00, 0x00, 0x00, 0x23, 0x00, 0x8C, 0x2A, 0x02, 0x30, 0x00, 0xBC, 0xE9, 0x00, 0x84, 0x0D, 0x9C, 0x00, 0x20, 0x0B, 0x2D, 0x00, 0x00, 0xC2, 0xF1, 0x01, 0x00, 0x00, 0x4A, 0x06, 0x00, 0x50, 0x14, 0x36, 0x40, 0x50, 0x15, 0x26, 0x40, 0x40, 0x15, 0x09, 0x2B, 0x00, 0x06, 0x09, 0x2B, 0x00, 0x07, 0x00, 0x00, 0x00, 0x00, 0x0C, 0x00, 0xFC, 0x60, 0x06, 0x40, 0x10, 0x0E, 0x0C, 0x00, 0xFC, 0x61, 0x06, 0x40, 0x10, 0x1E, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x1A, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x84, 0x00, 0x19, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x94, 0x00, 0x18, 0x06, 0x10, 0x10, 0x0E, 0x06, 0x10, 0x90, 0x1E, 0x0C, 0x01, 0xFD, 0xA0, 0x00, 0x10, 0x00, 0x08, 0x0D, 0x00, 0x00, 0x18, 0x05, 0x4C, 0x10, 0x2E, 0x05, 0x6C, 0x10, 0x3E, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x1B, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x84, 0x00, 0x74, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x94, 0x00, 0x76, 0x06, 0x10, 0x10, 0x2E, 0x06, 0x10, 0x90, 0x3E, 0xC0, 0x00, 0x08, 0x90, 0x80, 0x76, 0xFD, 0xA0, 0x0C, 0x10, 0x00, 0x76, 0x00, 0x10, 0x00, 0x08, 0x00, 0x10, 0x82, 0x49, 0x05, 0x4C, 0x10, 0x9E, 0x05, 0x6C, 0x10, 0x6E, 0x05, 0x4C, 0x91, 0xCE, 0x05, 0x6C, 0x91, 0xDE, 0x05, 0x0F, 0x90, 0x6E, 0x05, 0x4F, 0x80, 0x2D, 0x05, 0x0F, 0x10, 0x6E, 0x05, 0x4F, 0x12, 0x0E, 0x0C, 0x4E, 0x00, 0x78, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0E, 0x00, 0x21, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x1C, 0x06, 0x08, 0x10, 0x4E, 0x06, 0x18, 0x40, 0x31, 0xF1, 0x6C, 0x80, 0x01, 0x88, 0x00, 0x00, 0x20, 0x00, 0x00, 0x21, 0x02, 0x00, 0x04, 0x41, 0x0F, 0xFC, 0x6C, 0x80, 0x21, 0x81, 0x82, 0x04, 0x23, 0xFD, 0x74, 0xA2, 0x05, 0x81, 0x80, 0x01, 0x25, 0xE0, 0xAC, 0x80, 0x25, 0x8C, 0x02, 0x04, 0x23, 0xFC, 0x74, 0xA6, 0x41, 0x83, 0x80, 0x01, 0x25, 0xE1, 0xAC, 0x80, 0x21, 0x8E, 0x06, 0x04, 0x23, 0x06, 0x04, 0x90, 0xDE, 0xE0, 0x34, 0xA2, 0x05, 0x81, 0x80, 0x00, 0x20, 0xE0, 0x80, 0x00, 0x25, 0x8C, 0x00, 0x00, 0x00, 0x00, 0x84, 0x01, 0x19, 0x05, 0x4C, 0x90, 0xFE, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0D, 0x00, 0x03, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x08, 0x06, 0x08, 0x00, 0x0D, 0x06, 0x18, 0x50, 0x31, 0xF6, 0x62, 0x80, 0x01, 0x88, 0x02, 0x44, 0x00, 0xF6, 0x78, 0x80, 0x21, 0x81, 0x80, 0x47, 0x02, 0x03, 0x02, 0x00, 0xA2, 0xFA, 0x7A, 0xA2, 0x05, 0x81, 0x82, 0x4A, 0x00, 0xF6, 0x41, 0x00, 0x25, 0x8C, 0x00, 0x47, 0x02, 0xFA, 0x78, 0xA6, 0x41, 0x83, 0x82, 0x4A, 0x00, 0xF6, 0x43, 0x00, 0x21, 0x8E, 0x04, 0x47, 0x02, 0x06, 0x04, 0x91, 0x3E, 0xFA, 0x40, 0x22, 0x05, 0x81, 0x82, 0x4A, 0x00, 0xE0, 0x01, 0x00, 0x25, 0x8C, 0x00, 0x01, 0x02, 0x00, 0x84, 0x01, 0x19, 0x05, 0x4C, 0x91, 0x5E, 0x0C, 0x4C, 0x00, 0x79, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0E, 0x00, 0x28, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x30, 0x06, 0x08, 0x11, 0xEE, 0x06, 0x18, 0x40, 0x31, 0xF1, 0x6C, 0x80, 0x01, 0x88, 0x00, 0x01, 0x22, 0xF0, 0x6C, 0x80, 0x21, 0x81, 0x82, 0x04, 0x23, 0x00, 0x04, 0x41, 0x0E, 0x06, 0x04, 0x91, 0x9E, 0xE0, 0x34, 0xA2, 0x05, 0x81, 0x80, 0x00, 0x20, 0xE0, 0x80, 0x00, 0x25, 0x8C, 0x00, 0x00, 0x00, 0x00, 0x84, 0x01, 0x19, 0x05, 0x4C, 0x91, 0xBE, 0x05, 0x0F, 0x90, 0x9E, 0x05, 0x4F, 0x81, 0x0D, 0x05, 0x0F, 0x10, 0x9E, 0x05, 0x4F, 0x12, 0xDE, 0x0C, 0x4E, 0x00, 0x7A, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0E, 0x00, 0x2E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x3A, 0x06, 0x08, 0x10, 0x7E, 0x06, 0x18, 0x40, 0x31, 0xF1, 0x6C, 0x80, 0x01, 0x88, 0x00, 0x00, 0x20, 0x00, 0x00, 0x21, 0x02, 0x00, 0x04, 0x41, 0x0F, 0xFC, 0x6C, 0x80, 0x21, 0x81, 0x82, 0x04, 0x23, 0xFD, 0x74, 0xA2, 0x05, 0x81, 0x80, 0x01, 0x25, 0xE0, 0xAC, 0x80, 0x25, 0x8C, 0x02, 0x04, 0x23, 0xFC, 0x74, 0xA6, 0x41, 0x83, 0x80, 0x01, 0x25, 0xE1, 0xAC, 0x80, 0x21, 0x8E, 0x06, 0x04, 0x23, 0x06, 0x04, 0x90, 0xAE, 0xE0, 0x34, 0xA2, 0x05, 0x81, 0x80, 0x00, 0x20, 0xE0, 0x80, 0x00, 0x25, 0x8C, 0x00, 0x00, 0x00, 0x00, 0x84, 0x01, 0x19, 0x05, 0x4C, 0x90, 0xCE, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0D, 0x00, 0x11, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x26, 0x06, 0x08, 0x00, 0xED, 0x06, 0x18, 0x50, 0x31, 0xF6, 0x62, 0x80, 0x01, 0x88, 0x02, 0x44, 0x00, 0xF6, 0x78, 0x80, 0x21, 0x81, 0x80, 0x47, 0x02, 0x03, 0x02, 0x00, 0xEF, 0xFA, 0x7A, 0xA2, 0x05, 0x81, 0x82, 0x4A, 0x00, 0xF6, 0x41, 0x00, 0x25, 0x8C, 0x00, 0x47, 0x02, 0xFA, 0x78, 0xA6, 0x41, 0x83, 0x82, 0x4A, 0x00, 0xF6, 0x43, 0x00, 0x21, 0x8E, 0x04, 0x47, 0x02, 0x06, 0x04, 0x91, 0x0E, 0xFA, 0x40, 0x22, 0x05, 0x81, 0x82, 0x4A, 0x00, 0xE0, 0x01, 0x00, 0x25, 0x8C, 0x00, 0x01, 0x02, 0x00, 0x84, 0x01, 0x19, 0x05, 0x4C, 0x91, 0x2E, 0x0C, 0x4C, 0x00, 0x7B, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0E, 0x00, 0x35, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x4E, 0x06, 0x08, 0x12, 0xBE, 0x06, 0x18, 0x40, 0x31, 0xF1, 0x6C, 0x80, 0x01, 0x88, 0x00, 0x01, 0x22, 0xF0, 0x6C, 0x80, 0x21, 0x81, 0x82, 0x04, 0x23, 0x00, 0x04, 0x41, 0x0E, 0x06, 0x04, 0x91, 0x6E, 0xE0, 0x34, 0xA2, 0x05, 0x81, 0x80, 0x00, 0x20, 0xE0, 0x80, 0x00, 0x25, 0x8C, 0x00, 0x00, 0x00, 0x00, 0x84, 0x01, 0x19, 0x05, 0x4C, 0x91, 0x8E, 0x06, 0x00, 0x10, 0xCE, 0x06, 0x00, 0x90, 0xFE, 0x0D, 0x10, 0xFC, 0xC0, 0x06, 0x00, 0x11, 0x2E, 0x06, 0x00, 0x91, 0x5E, 0x0D, 0x10, 0xFC, 0xC4, 0x06, 0x00, 0x11, 0x8E, 0x06, 0x00, 0x91, 0xBE, 0x0D, 0x10, 0xFC, 0xC8, 0x06, 0x00, 0x11, 0xCE, 0x06, 0x00, 0x91, 0xDE, 0x0D, 0x10, 0xFC, 0xCC, 0x08, 0x80, 0x00, 0x10, 0x08, 0x82, 0x00, 0x14, 0x00, 0x00, 0x20, 0x01, 0x00, 0x00, 0x21, 0x01, 0x09, 0x80, 0x00, 0x10, 0x09, 0x82, 0x00, 0x14, 0x00, 0x00, 0x00, 0x02, 0x0C, 0x10, 0xF4, 0x60, 0x02, 0xC2, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Program>
+        <Register>
+            <Name>DM0 Data</Name>
+            <Address>0</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>512</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x58, 0x00, 0x00, 0x00, 0x58, 0x00, 0x00, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x44, 0x00, 0x00, 0x00, 0x44, 0x00, 0x00, 0x00, 0x38, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x19, 0x99, 0x9A, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x06, 0x9E, 0x00, 0x00, 0x0D, 0x3C, 0x00, 0x00, 0x06, 0x9E, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0x00, 0x05, 0x35, 0x00, 0x00, 0x0A, 0x69, 0x00, 0x00, 0x05, 0x35, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x00, 0x00, 0x05, 0x42, 0x00, 0x00, 0x0A, 0x83, 0x00, 0x00, 0x05, 0x42, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0x00, 0x05, 0x35, 0x00, 0x00, 0x0A, 0x69, 0x00, 0x00, 0x05, 0x35, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x01, 0x74, 0xB0, 0xDD, 0xFD, 0x16, 0x9E, 0x47, 0x01, 0x74, 0xB0, 0xDD, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0xD1, 0x94, 0x59, 0xFE, 0x5C, 0xD7, 0x4F, 0x00, 0xD1, 0x94, 0x59, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0x00, 0x06, 0x9E, 0x00, 0x00, 0x0D, 0x3C, 0x00, 0x00, 0x06, 0x9E, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0x00, 0x05, 0x35, 0x00, 0x00, 0x0A, 0x69, 0x00, 0x00, 0x05, 0x35, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x00, 0x00, 0x05, 0x42, 0x00, 0x00, 0x0A, 0x83, 0x00, 0x00, 0x05, 0x42, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0x00, 0x05, 0x35, 0x00, 0x00, 0x0A, 0x69, 0x00, 0x00, 0x05, 0x35, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x01, 0x74, 0xB0, 0xDD, 0xFD, 0x16, 0x9E, 0x47, 0x01, 0x74, 0xB0, 0xDD, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0xD1, 0x94, 0x59, 0xFE, 0x5C, 0xD7, 0x4F, 0x00, 0xD1, 0x94, 0x59, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>DM1 Data</Name>
+            <Address>24576</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>512</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xFE, 0x3B, 0x1B, 0xFE, 0x03, 0x89, 0xCB, 0x00, 0xFE, 0x3B, 0x1B, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0xFB, 0xCC, 0x6F, 0xFE, 0x08, 0x67, 0x21, 0x00, 0xFB, 0xCC, 0x6F, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x00, 0xFE, 0x3B, 0x1B, 0xFE, 0x03, 0x89, 0xCB, 0x00, 0xFE, 0x3B, 0x1B, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0xFB, 0xCC, 0x6F, 0xFE, 0x08, 0x67, 0x21, 0x00, 0xFB, 0xCC, 0x6F, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x00, 0x04, 0x3E, 0x70, 0x00, 0x08, 0x7C, 0xE0, 0x00, 0x04, 0x3E, 0x70, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0x04, 0x3E, 0x70, 0x00, 0x08, 0x7C, 0xE0, 0x00, 0x04, 0x3E, 0x70, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0xFE, 0x3B, 0x1B, 0xFE, 0x03, 0x89, 0xCB, 0x00, 0xFE, 0x3B, 0x1B, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0xFB, 0xCC, 0x6F, 0xFE, 0x08, 0x67, 0x21, 0x00, 0xFB, 0xCC, 0x6F, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x00, 0xFE, 0x3B, 0x1B, 0xFE, 0x03, 0x89, 0xCB, 0x00, 0xFE, 0x3B, 0x1B, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0xFB, 0xCC, 0x6F, 0xFE, 0x08, 0x67, 0x21, 0x00, 0xFB, 0xCC, 0x6F, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x00, 0x04, 0x3E, 0x70, 0x00, 0x08, 0x7C, 0xE0, 0x00, 0x04, 0x3E, 0x70, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0x04, 0x3E, 0x70, 0x00, 0x08, 0x7C, 0xE0, 0x00, 0x04, 0x3E, 0x70, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_ADDRESS</Name>
+            <Address>62468</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_PULSE</Name>
+            <Address>62465</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_CORE</Name>
+            <Address>62466</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_CORE</Name>
+            <Address>62466</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Start Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Module>
+            <CellName>FilterStage1.Crossover1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>CrossoverFilter3WayAlgSP_S3001</DetailedName>
+                <Description>3-Way Crossover Filter - Single Precision( 1 ) : FrequencyLow[ 137.3 ],FrequencyMidLow[ 137.3 ],FrequencyMidHigh[ 2159.7 ],FrequencyHigh[ 2159.7 ],Gain1[ 2 ],Gain2[ 0 ],Gain3[ 5 ],Type1[ 3 ],Type2[ 3 ],Type3[ 1 ],Type4[ 1 ],InvertLow[ False ],InvertHigh[ False ];</Description>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_0</Name>
+                    <Type>Int32</Type>
+                    <Address>58</Address>
+                    <Value>0.000100970268249512</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x06, 0x9E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_0</Name>
+                    <Type>Int32</Type>
+                    <Address>58</Address>
+                    <Value>0.000100970268249512</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x06, 0x9E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_0</Name>
+                    <Type>Int32</Type>
+                    <Address>59</Address>
+                    <Value>0.000201940536499023</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0D, 0x3C, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_0</Name>
+                    <Type>Int32</Type>
+                    <Address>59</Address>
+                    <Value>0.000201940536499023</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0D, 0x3C, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_0</Name>
+                    <Type>Int32</Type>
+                    <Address>60</Address>
+                    <Value>0.000100970268249512</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x06, 0x9E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_0</Name>
+                    <Type>Int32</Type>
+                    <Address>60</Address>
+                    <Value>0.000100970268249512</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x06, 0x9E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_0</Name>
+                    <Type>Int32</Type>
+                    <Address>61</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_0</Name>
+                    <Type>Int32</Type>
+                    <Address>61</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_0</Name>
+                    <Type>Int32</Type>
+                    <Address>62</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_0</Name>
+                    <Type>Int32</Type>
+                    <Address>62</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_1</Name>
+                    <Type>Int32</Type>
+                    <Address>63</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_1</Name>
+                    <Type>Int32</Type>
+                    <Address>63</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_1</Name>
+                    <Type>Int32</Type>
+                    <Address>64</Address>
+                    <Value>0.000158846378326416</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0A, 0x69, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_1</Name>
+                    <Type>Int32</Type>
+                    <Address>64</Address>
+                    <Value>0.000158846378326416</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0A, 0x69, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_1</Name>
+                    <Type>Int32</Type>
+                    <Address>65</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_1</Name>
+                    <Type>Int32</Type>
+                    <Address>65</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_1</Name>
+                    <Type>Int32</Type>
+                    <Address>66</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_1</Name>
+                    <Type>Int32</Type>
+                    <Address>66</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_1</Name>
+                    <Type>Int32</Type>
+                    <Address>67</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_1</Name>
+                    <Type>Int32</Type>
+                    <Address>67</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_2</Name>
+                    <Type>Int32</Type>
+                    <Address>68</Address>
+                    <Value>8.02278518676758E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x42, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_2</Name>
+                    <Type>Int32</Type>
+                    <Address>68</Address>
+                    <Value>8.02278518676758E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x42, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_2</Name>
+                    <Type>Int32</Type>
+                    <Address>69</Address>
+                    <Value>0.000160396099090576</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0A, 0x83, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_2</Name>
+                    <Type>Int32</Type>
+                    <Address>69</Address>
+                    <Value>0.000160396099090576</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0A, 0x83, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_2</Name>
+                    <Type>Int32</Type>
+                    <Address>70</Address>
+                    <Value>8.02278518676758E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x42, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_2</Name>
+                    <Type>Int32</Type>
+                    <Address>70</Address>
+                    <Value>8.02278518676758E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x42, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_2</Name>
+                    <Type>Int32</Type>
+                    <Address>71</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_2</Name>
+                    <Type>Int32</Type>
+                    <Address>71</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_2</Name>
+                    <Type>Int32</Type>
+                    <Address>72</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_2</Name>
+                    <Type>Int32</Type>
+                    <Address>72</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_3</Name>
+                    <Type>Int32</Type>
+                    <Address>73</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_3</Name>
+                    <Type>Int32</Type>
+                    <Address>73</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_3</Name>
+                    <Type>Int32</Type>
+                    <Address>74</Address>
+                    <Value>0.000158846378326416</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0A, 0x69, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_3</Name>
+                    <Type>Int32</Type>
+                    <Address>74</Address>
+                    <Value>0.000158846378326416</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0A, 0x69, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_3</Name>
+                    <Type>Int32</Type>
+                    <Address>75</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_3</Name>
+                    <Type>Int32</Type>
+                    <Address>75</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_3</Name>
+                    <Type>Int32</Type>
+                    <Address>76</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_3</Name>
+                    <Type>Int32</Type>
+                    <Address>76</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_3</Name>
+                    <Type>Int32</Type>
+                    <Address>77</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_3</Name>
+                    <Type>Int32</Type>
+                    <Address>77</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_10</Name>
+                    <Type>Int32</Type>
+                    <Address>78</Address>
+                    <Value>1.4558237195015</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x74, 0xB0, 0xDD, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_10</Name>
+                    <Type>Int32</Type>
+                    <Address>78</Address>
+                    <Value>1.4558237195015</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x74, 0xB0, 0xDD, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_10</Name>
+                    <Type>Int32</Type>
+                    <Address>79</Address>
+                    <Value>-2.91164737939835</Value>
+                    <Size>4</Size>
+                    <Data>0xFD, 0x16, 0x9E, 0x47, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_10</Name>
+                    <Type>Int32</Type>
+                    <Address>79</Address>
+                    <Value>-2.91164737939835</Value>
+                    <Size>4</Size>
+                    <Data>0xFD, 0x16, 0x9E, 0x47, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_10</Name>
+                    <Type>Int32</Type>
+                    <Address>80</Address>
+                    <Value>1.4558237195015</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x74, 0xB0, 0xDD, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_10</Name>
+                    <Type>Int32</Type>
+                    <Address>80</Address>
+                    <Value>1.4558237195015</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x74, 0xB0, 0xDD, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_10</Name>
+                    <Type>Int32</Type>
+                    <Address>81</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_10</Name>
+                    <Type>Int32</Type>
+                    <Address>81</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_10</Name>
+                    <Type>Int32</Type>
+                    <Address>82</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_10</Name>
+                    <Type>Int32</Type>
+                    <Address>82</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_11</Name>
+                    <Type>Int32</Type>
+                    <Address>83</Address>
+                    <Value>0.818669855594635</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xD1, 0x94, 0x59, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_11</Name>
+                    <Type>Int32</Type>
+                    <Address>83</Address>
+                    <Value>0.818669855594635</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xD1, 0x94, 0x59, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_11</Name>
+                    <Type>Int32</Type>
+                    <Address>84</Address>
+                    <Value>-1.63733965158463</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x5C, 0xD7, 0x4F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_11</Name>
+                    <Type>Int32</Type>
+                    <Address>84</Address>
+                    <Value>-1.63733965158463</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x5C, 0xD7, 0x4F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_11</Name>
+                    <Type>Int32</Type>
+                    <Address>85</Address>
+                    <Value>0.818669855594635</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xD1, 0x94, 0x59, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_11</Name>
+                    <Type>Int32</Type>
+                    <Address>85</Address>
+                    <Value>0.818669855594635</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xD1, 0x94, 0x59, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_11</Name>
+                    <Type>Int32</Type>
+                    <Address>86</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_11</Name>
+                    <Type>Int32</Type>
+                    <Address>86</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_11</Name>
+                    <Type>Int32</Type>
+                    <Address>87</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_11</Name>
+                    <Type>Int32</Type>
+                    <Address>87</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001LowInvert</Name>
+                    <Type>Int32</Type>
+                    <Address>122</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001LowInvert</Name>
+                    <Type>Int32</Type>
+                    <Address>122</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001HighInvert</Name>
+                    <Type>Int32</Type>
+                    <Address>123</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001HighInvert</Name>
+                    <Type>Int32</Type>
+                    <Address>123</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24614</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24614</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24615</Address>
+                    <Value>-1.98617869615555</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x03, 0x89, 0xCB, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24615</Address>
+                    <Value>-1.98617869615555</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x03, 0x89, 0xCB, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24616</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24616</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24617</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24617</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24618</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24618</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24619</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24619</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24620</Address>
+                    <Value>-1.96717637777328</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x08, 0x67, 0x21, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24620</Address>
+                    <Value>-1.96717637777328</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x08, 0x67, 0x21, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24621</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24621</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24622</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24622</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24623</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24623</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24624</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24624</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24625</Address>
+                    <Value>-1.98617869615555</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x03, 0x89, 0xCB, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24625</Address>
+                    <Value>-1.98617869615555</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x03, 0x89, 0xCB, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24626</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24626</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24627</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24627</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24628</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24628</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24629</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24629</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24630</Address>
+                    <Value>-1.96717637777328</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x08, 0x67, 0x21, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24630</Address>
+                    <Value>-1.96717637777328</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x08, 0x67, 0x21, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24631</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24631</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24632</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24632</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24633</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24633</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24634</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24634</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24635</Address>
+                    <Value>0.0331554412841797</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x7C, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24635</Address>
+                    <Value>0.0331554412841797</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x7C, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24636</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24636</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24637</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24637</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24638</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24638</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24639</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B2_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24639</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24640</Address>
+                    <Value>0.0331554412841797</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x7C, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B1_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24640</Address>
+                    <Value>0.0331554412841797</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x7C, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24641</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001B0_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24641</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24642</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A2_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24642</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24643</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3001A1_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24643</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+            </Algorithm>
+            <Algorithm>
+                <AlgoName>ALG1</AlgoName>
+                <DetailedName>CrossoverFilter3WayAlgSP_S3002</DetailedName>
+                <Description>3-Way Crossover Filter - Single Precision( 1 ) : FrequencyLow[ 137.3 ],FrequencyMidLow[ 137.3 ],FrequencyMidHigh[ 2159.7 ],FrequencyHigh[ 2159.7 ],Gain1[ 2 ],Gain2[ 0 ],Gain3[ 5 ],Type1[ 3 ],Type2[ 3 ],Type3[ 1 ],Type4[ 1 ],InvertLow[ False ],InvertHigh[ False ];</Description>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_0</Name>
+                    <Type>Int32</Type>
+                    <Address>28</Address>
+                    <Value>0.000100970268249512</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x06, 0x9E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_0</Name>
+                    <Type>Int32</Type>
+                    <Address>28</Address>
+                    <Value>0.000100970268249512</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x06, 0x9E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_0</Name>
+                    <Type>Int32</Type>
+                    <Address>29</Address>
+                    <Value>0.000201940536499023</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0D, 0x3C, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_0</Name>
+                    <Type>Int32</Type>
+                    <Address>29</Address>
+                    <Value>0.000201940536499023</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0D, 0x3C, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_0</Name>
+                    <Type>Int32</Type>
+                    <Address>30</Address>
+                    <Value>0.000100970268249512</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x06, 0x9E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_0</Name>
+                    <Type>Int32</Type>
+                    <Address>30</Address>
+                    <Value>0.000100970268249512</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x06, 0x9E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_0</Name>
+                    <Type>Int32</Type>
+                    <Address>31</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_0</Name>
+                    <Type>Int32</Type>
+                    <Address>31</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_0</Name>
+                    <Type>Int32</Type>
+                    <Address>32</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_0</Name>
+                    <Type>Int32</Type>
+                    <Address>32</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_1</Name>
+                    <Type>Int32</Type>
+                    <Address>33</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_1</Name>
+                    <Type>Int32</Type>
+                    <Address>33</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_1</Name>
+                    <Type>Int32</Type>
+                    <Address>34</Address>
+                    <Value>0.000158846378326416</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0A, 0x69, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_1</Name>
+                    <Type>Int32</Type>
+                    <Address>34</Address>
+                    <Value>0.000158846378326416</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0A, 0x69, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_1</Name>
+                    <Type>Int32</Type>
+                    <Address>35</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_1</Name>
+                    <Type>Int32</Type>
+                    <Address>35</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_1</Name>
+                    <Type>Int32</Type>
+                    <Address>36</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_1</Name>
+                    <Type>Int32</Type>
+                    <Address>36</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_1</Name>
+                    <Type>Int32</Type>
+                    <Address>37</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_1</Name>
+                    <Type>Int32</Type>
+                    <Address>37</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_2</Name>
+                    <Type>Int32</Type>
+                    <Address>38</Address>
+                    <Value>8.02278518676758E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x42, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_2</Name>
+                    <Type>Int32</Type>
+                    <Address>38</Address>
+                    <Value>8.02278518676758E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x42, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_2</Name>
+                    <Type>Int32</Type>
+                    <Address>39</Address>
+                    <Value>0.000160396099090576</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0A, 0x83, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_2</Name>
+                    <Type>Int32</Type>
+                    <Address>39</Address>
+                    <Value>0.000160396099090576</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0A, 0x83, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_2</Name>
+                    <Type>Int32</Type>
+                    <Address>40</Address>
+                    <Value>8.02278518676758E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x42, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_2</Name>
+                    <Type>Int32</Type>
+                    <Address>40</Address>
+                    <Value>8.02278518676758E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x42, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_2</Name>
+                    <Type>Int32</Type>
+                    <Address>41</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_2</Name>
+                    <Type>Int32</Type>
+                    <Address>41</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_2</Name>
+                    <Type>Int32</Type>
+                    <Address>42</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_2</Name>
+                    <Type>Int32</Type>
+                    <Address>42</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_3</Name>
+                    <Type>Int32</Type>
+                    <Address>43</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_3</Name>
+                    <Type>Int32</Type>
+                    <Address>43</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_3</Name>
+                    <Type>Int32</Type>
+                    <Address>44</Address>
+                    <Value>0.000158846378326416</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0A, 0x69, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_3</Name>
+                    <Type>Int32</Type>
+                    <Address>44</Address>
+                    <Value>0.000158846378326416</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x0A, 0x69, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_3</Name>
+                    <Type>Int32</Type>
+                    <Address>45</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_3</Name>
+                    <Type>Int32</Type>
+                    <Address>45</Address>
+                    <Value>7.94529914855957E-05</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x05, 0x35, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_3</Name>
+                    <Type>Int32</Type>
+                    <Address>46</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_3</Name>
+                    <Type>Int32</Type>
+                    <Address>46</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_3</Name>
+                    <Type>Int32</Type>
+                    <Address>47</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_3</Name>
+                    <Type>Int32</Type>
+                    <Address>47</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_10</Name>
+                    <Type>Int32</Type>
+                    <Address>48</Address>
+                    <Value>1.4558237195015</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x74, 0xB0, 0xDD, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_10</Name>
+                    <Type>Int32</Type>
+                    <Address>48</Address>
+                    <Value>1.4558237195015</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x74, 0xB0, 0xDD, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_10</Name>
+                    <Type>Int32</Type>
+                    <Address>49</Address>
+                    <Value>-2.91164737939835</Value>
+                    <Size>4</Size>
+                    <Data>0xFD, 0x16, 0x9E, 0x47, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_10</Name>
+                    <Type>Int32</Type>
+                    <Address>49</Address>
+                    <Value>-2.91164737939835</Value>
+                    <Size>4</Size>
+                    <Data>0xFD, 0x16, 0x9E, 0x47, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_10</Name>
+                    <Type>Int32</Type>
+                    <Address>50</Address>
+                    <Value>1.4558237195015</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x74, 0xB0, 0xDD, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_10</Name>
+                    <Type>Int32</Type>
+                    <Address>50</Address>
+                    <Value>1.4558237195015</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x74, 0xB0, 0xDD, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_10</Name>
+                    <Type>Int32</Type>
+                    <Address>51</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_10</Name>
+                    <Type>Int32</Type>
+                    <Address>51</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_10</Name>
+                    <Type>Int32</Type>
+                    <Address>52</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_10</Name>
+                    <Type>Int32</Type>
+                    <Address>52</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_11</Name>
+                    <Type>Int32</Type>
+                    <Address>53</Address>
+                    <Value>0.818669855594635</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xD1, 0x94, 0x59, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_11</Name>
+                    <Type>Int32</Type>
+                    <Address>53</Address>
+                    <Value>0.818669855594635</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xD1, 0x94, 0x59, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_11</Name>
+                    <Type>Int32</Type>
+                    <Address>54</Address>
+                    <Value>-1.63733965158463</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x5C, 0xD7, 0x4F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_11</Name>
+                    <Type>Int32</Type>
+                    <Address>54</Address>
+                    <Value>-1.63733965158463</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x5C, 0xD7, 0x4F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_11</Name>
+                    <Type>Int32</Type>
+                    <Address>55</Address>
+                    <Value>0.818669855594635</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xD1, 0x94, 0x59, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_11</Name>
+                    <Type>Int32</Type>
+                    <Address>55</Address>
+                    <Value>0.818669855594635</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xD1, 0x94, 0x59, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_11</Name>
+                    <Type>Int32</Type>
+                    <Address>56</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_11</Name>
+                    <Type>Int32</Type>
+                    <Address>56</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_11</Name>
+                    <Type>Int32</Type>
+                    <Address>57</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_11</Name>
+                    <Type>Int32</Type>
+                    <Address>57</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002LowInvert</Name>
+                    <Type>Int32</Type>
+                    <Address>120</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002LowInvert</Name>
+                    <Type>Int32</Type>
+                    <Address>120</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002HighInvert</Name>
+                    <Type>Int32</Type>
+                    <Address>121</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002HighInvert</Name>
+                    <Type>Int32</Type>
+                    <Address>121</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24584</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24584</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24585</Address>
+                    <Value>-1.98617869615555</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x03, 0x89, 0xCB, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24585</Address>
+                    <Value>-1.98617869615555</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x03, 0x89, 0xCB, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24586</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24586</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24587</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24587</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24588</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_4</Name>
+                    <Type>Int32</Type>
+                    <Address>24588</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24589</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24589</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24590</Address>
+                    <Value>-1.96717637777328</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x08, 0x67, 0x21, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24590</Address>
+                    <Value>-1.96717637777328</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x08, 0x67, 0x21, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24591</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24591</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24592</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24592</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24593</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_5</Name>
+                    <Type>Int32</Type>
+                    <Address>24593</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24594</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24594</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24595</Address>
+                    <Value>-1.98617869615555</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x03, 0x89, 0xCB, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24595</Address>
+                    <Value>-1.98617869615555</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x03, 0x89, 0xCB, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24596</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24596</Address>
+                    <Value>0.993089377880096</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFE, 0x3B, 0x1B, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24597</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24597</Address>
+                    <Value>-0.986339092254639</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x03, 0x7F, 0x48, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24598</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_6</Name>
+                    <Type>Int32</Type>
+                    <Address>24598</Address>
+                    <Value>1.98601830005646</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFC, 0x6B, 0xB2, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24599</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24599</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24600</Address>
+                    <Value>-1.96717637777328</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x08, 0x67, 0x21, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24600</Address>
+                    <Value>-1.96717637777328</Value>
+                    <Size>4</Size>
+                    <Data>0xFE, 0x08, 0x67, 0x21, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24601</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24601</Address>
+                    <Value>0.98358815908432</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0xFB, 0xCC, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24602</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24602</Address>
+                    <Value>-0.967335224151611</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x08, 0x5C, 0xB8, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24603</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_7</Name>
+                    <Type>Int32</Type>
+                    <Address>24603</Address>
+                    <Value>1.96701753139496</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xF7, 0x8E, 0x76, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24604</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24604</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24605</Address>
+                    <Value>0.0331554412841797</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x7C, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24605</Address>
+                    <Value>0.0331554412841797</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x7C, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24606</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24606</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24607</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24607</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24608</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_8</Name>
+                    <Type>Int32</Type>
+                    <Address>24608</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24609</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B2_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24609</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24610</Address>
+                    <Value>0.0331554412841797</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x7C, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B1_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24610</Address>
+                    <Value>0.0331554412841797</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x7C, 0xE0, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24611</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002B0_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24611</Address>
+                    <Value>0.0165777206420898</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x04, 0x3E, 0x70, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24612</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A2_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24612</Address>
+                    <Value>-0.670495092868805</Value>
+                    <Size>4</Size>
+                    <Data>0xFF, 0x54, 0x5A, 0x6F, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24613</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>CrossoverFilter3WayAlgSP_S3002A1_9</Name>
+                    <Type>Int32</Type>
+                    <Address>24613</Address>
+                    <Value>1.60418421030045</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x9A, 0xAB, 0xD1, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Single 1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>HWGainADAU145XAlg1</DetailedName>
+                <Description>Gain (HW slew)( 1 ) : Gain[ -20 ],slewType[ Exponential2 ];</Description>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg1target</Name>
+                    <Type>Int32</Type>
+                    <Address>25</Address>
+                    <Value>0.100000023841858</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x19, 0x99, 0x9A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>HWGainADAU145XAlg1slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>26</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>2xN-1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>stereoDemuxSlewSigma3001</DetailedName>
+                <Description>Stereo HW Slew( 2 ) : OnOff[ True ],slewType[ Exponential2 ];OnOff[ False ];</Description>
+                <ModuleParameter>
+                    <Name>stereoDemuxSlewSigma3001slew_mode</Name>
+                    <Type>Int32</Type>
+                    <Address>27</Address>
+                    <Value>8330</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x20, 0x8A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>stereoDemuxSlewSigma3001vol0</Name>
+                    <Type>HexArray</Type>
+                    <Address>116</Address>
+                    <Size>8</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+    </IC>
+    <IC>
+        <Name>IC 2</Name>
+        <Register>
+            <Name>__SafeLoad_Module__data_SafeLoad</Name>
+            <Address>24576</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>20</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__SafeLoad_Module__address_SafeLoad</Name>
+            <Address>24581</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__SafeLoad_Module__num_SafeLoad_lower</Name>
+            <Address>24582</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__SafeLoad_Module__num_SafeLoad_upper</Name>
+            <Address>24583</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOFT_RESET</Name>
+            <Address>63632</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOFT_RESET</Name>
+            <Address>63632</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Reset Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Hibernate Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_ENABLE</Name>
+            <Address>61443</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CTRL1 Register</Name>
+            <Address>61441</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CLK_SRC Register</Name>
+            <Address>61442</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MCLK_OUT Register</Name>
+            <Address>61445</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x05, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_ENABLE Register</Name>
+            <Address>61443</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL Lock Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.POWER_ENABLE0 Register</Name>
+            <Address>61520</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x1F, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.POWER_ENABLE1 Register</Name>
+            <Address>61521</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x1F, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE0</Name>
+            <Address>61824</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE1</Name>
+            <Address>61825</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE2</Name>
+            <Address>61826</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE3</Name>
+            <Address>61827</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE4</Name>
+            <Address>61828</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE5</Name>
+            <Address>61829</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE6</Name>
+            <Address>61830</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE7</Name>
+            <Address>61831</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE8</Name>
+            <Address>61832</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE9</Name>
+            <Address>61833</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE10</Name>
+            <Address>61834</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE11</Name>
+            <Address>61835</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE12</Name>
+            <Address>61836</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE13</Name>
+            <Address>61837</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE14</Name>
+            <Address>61838</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE15</Name>
+            <Address>61839</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE16</Name>
+            <Address>61840</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE17</Name>
+            <Address>61841</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE18</Name>
+            <Address>61842</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE19</Name>
+            <Address>61843</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE20</Name>
+            <Address>61844</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE21</Name>
+            <Address>61845</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE22</Name>
+            <Address>61846</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE23</Name>
+            <Address>61847</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_0_0</Name>
+            <Address>61952</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_1_0</Name>
+            <Address>61956</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_2_0</Name>
+            <Address>61960</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_3_0</Name>
+            <Address>61964</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_4_0</Name>
+            <Address>61968</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_5_0</Name>
+            <Address>61972</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_6_0</Name>
+            <Address>61976</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_7_0</Name>
+            <Address>61980</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_4_ROUTE</Name>
+            <Address>62020</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x08, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_5_ROUTE</Name>
+            <Address>62021</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x30, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_6_ROUTE</Name>
+            <Address>62022</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x31, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_7_ROUTE</Name>
+            <Address>62023</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x32, </Data>
+        </Register>
+        <Program>
+            <Name>Program Data</Name>
+            <Address>49152</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>1160</Size>
+            <Data>0x00, 0x00, 0x00, 0x02, 0x0C, 0x00, 0xDC, 0xDC, 0x0D, 0x00, 0xFF, 0xD2, 0x0D, 0x00, 0xFF, 0xD0, 0x0D, 0x00, 0xF4, 0x50, 0x0D, 0x00, 0xF4, 0x00, 0xC0, 0x00, 0x23, 0x80, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0x00, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0xC0, 0x80, 0x00, 0x00, 0x10, 0xC0, 0x00, 0x22, 0x00, 0x80, 0x00, 0x00, 0x00, 0x08, 0x80, 0xDC, 0xE0, 0x0C, 0x00, 0xDC, 0xDC, 0x0A, 0x21, 0x00, 0x12, 0x08, 0x00, 0x00, 0x10, 0x01, 0x00, 0x00, 0x14, 0x06, 0x40, 0x40, 0x10, 0x0A, 0x21, 0x00, 0x16, 0x08, 0x00, 0x00, 0x14, 0x01, 0x00, 0x00, 0x18, 0x06, 0x40, 0x50, 0x10, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x2B, 0x0D, 0x00, 0xFF, 0xC1, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x01, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x00, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x02, 0x0D, 0x00, 0xFF, 0xD1, 0x00, 0x00, 0x00, 0x03, 0x0D, 0x00, 0xFF, 0xD2, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x01, 0x00, 0x26, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x08, 0x9E, 0xDC, 0xE0, 0x08, 0x9C, 0x00, 0x14, 0x08, 0x9A, 0x00, 0x10, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x4F, 0x00, 0x00, 0x08, 0x8A, 0xDC, 0xE0, 0x0A, 0x23, 0x00, 0x06, 0x0A, 0x2B, 0x00, 0x07, 0x00, 0x88, 0x20, 0x00, 0x0A, 0xA7, 0x00, 0x05, 0x00, 0x00, 0x00, 0x22, 0xC0, 0x00, 0x2D, 0x30, 0x80, 0x00, 0x50, 0x00, 0x30, 0x00, 0xB4, 0x6A, 0x00, 0x88, 0x20, 0x00, 0xC0, 0x00, 0x28, 0x70, 0x80, 0x00, 0x60, 0x00, 0x02, 0x09, 0x00, 0x4C, 0x00, 0x8C, 0x11, 0x91, 0x00, 0x00, 0x00, 0x23, 0x00, 0x8C, 0x2A, 0x02, 0x30, 0x00, 0xBC, 0xE9, 0x00, 0x84, 0x0D, 0x9C, 0x00, 0x20, 0x0B, 0x2D, 0x00, 0x00, 0xC2, 0xF1, 0x01, 0x00, 0x00, 0x4A, 0x06, 0x00, 0x50, 0x14, 0x36, 0x40, 0x50, 0x15, 0x26, 0x40, 0x40, 0x15, 0x09, 0x2B, 0x00, 0x06, 0x09, 0x2B, 0x00, 0x07, 0x00, 0x00, 0x00, 0x00, 0x0C, 0x00, 0xFC, 0x60, 0x06, 0x40, 0x10, 0x0E, 0x0C, 0x00, 0xFC, 0x61, 0x06, 0x40, 0x10, 0x1E, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x1A, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x84, 0x00, 0x19, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x94, 0x00, 0x18, 0x06, 0x10, 0x10, 0x0E, 0x06, 0x10, 0x90, 0x1E, 0x0C, 0x01, 0xFD, 0xA0, 0x00, 0x10, 0x00, 0x08, 0x0D, 0x00, 0x00, 0x18, 0x05, 0x4C, 0x10, 0x2E, 0x05, 0x6C, 0x10, 0x3E, 0xC0, 0x00, 0x08, 0x0F, 0x8D, 0x80, 0x00, 0x1B, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x84, 0x00, 0x74, 0xC0, 0x00, 0x08, 0x8F, 0x8D, 0x94, 0x00, 0x76, 0x06, 0x10, 0x10, 0x2E, 0x06, 0x10, 0x90, 0x3E, 0xC0, 0x00, 0x08, 0x90, 0x80, 0x76, 0xFD, 0xA0, 0x0C, 0x10, 0x00, 0x76, 0x00, 0x10, 0x00, 0x08, 0x00, 0x10, 0x82, 0x49, 0x05, 0x4C, 0x10, 0x9E, 0x05, 0x6C, 0x10, 0x6E, 0x05, 0x4C, 0x91, 0xCE, 0x05, 0x6C, 0x91, 0xDE, 0x05, 0x0F, 0x90, 0x6E, 0x05, 0x4F, 0x80, 0x2D, 0x05, 0x0F, 0x10, 0x6E, 0x05, 0x4F, 0x12, 0x0E, 0x0C, 0x4E, 0x00, 0x78, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0E, 0x00, 0x21, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x1C, 0x06, 0x08, 0x10, 0x4E, 0x06, 0x18, 0x40, 0x31, 0xF1, 0x6C, 0x80, 0x01, 0x88, 0x00, 0x00, 0x20, 0x00, 0x00, 0x21, 0x02, 0x00, 0x04, 0x41, 0x0F, 0xFC, 0x6C, 0x80, 0x21, 0x81, 0x82, 0x04, 0x23, 0xFD, 0x74, 0xA2, 0x05, 0x81, 0x80, 0x01, 0x25, 0xE0, 0xAC, 0x80, 0x25, 0x8C, 0x02, 0x04, 0x23, 0xFC, 0x74, 0xA6, 0x41, 0x83, 0x80, 0x01, 0x25, 0xE1, 0xAC, 0x80, 0x21, 0x8E, 0x06, 0x04, 0x23, 0x06, 0x04, 0x90, 0xDE, 0xE0, 0x34, 0xA2, 0x05, 0x81, 0x80, 0x00, 0x20, 0xE0, 0x80, 0x00, 0x25, 0x8C, 0x00, 0x00, 0x00, 0x00, 0x84, 0x01, 0x19, 0x05, 0x4C, 0x90, 0xFE, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0D, 0x00, 0x03, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x08, 0x06, 0x08, 0x00, 0x0D, 0x06, 0x18, 0x50, 0x31, 0xF6, 0x62, 0x80, 0x01, 0x88, 0x02, 0x44, 0x00, 0xF6, 0x78, 0x80, 0x21, 0x81, 0x80, 0x47, 0x02, 0x03, 0x02, 0x00, 0xA2, 0xFA, 0x7A, 0xA2, 0x05, 0x81, 0x82, 0x4A, 0x00, 0xF6, 0x41, 0x00, 0x25, 0x8C, 0x00, 0x47, 0x02, 0xFA, 0x78, 0xA6, 0x41, 0x83, 0x82, 0x4A, 0x00, 0xF6, 0x43, 0x00, 0x21, 0x8E, 0x04, 0x47, 0x02, 0x06, 0x04, 0x91, 0x3E, 0xFA, 0x40, 0x22, 0x05, 0x81, 0x82, 0x4A, 0x00, 0xE0, 0x01, 0x00, 0x25, 0x8C, 0x00, 0x01, 0x02, 0x00, 0x84, 0x01, 0x19, 0x05, 0x4C, 0x91, 0x5E, 0x0C, 0x4C, 0x00, 0x79, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0E, 0x00, 0x28, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x30, 0x06, 0x08, 0x11, 0xEE, 0x06, 0x18, 0x40, 0x31, 0xF1, 0x6C, 0x80, 0x01, 0x88, 0x00, 0x01, 0x22, 0xF0, 0x6C, 0x80, 0x21, 0x81, 0x82, 0x04, 0x23, 0x00, 0x04, 0x41, 0x0E, 0x06, 0x04, 0x91, 0x9E, 0xE0, 0x34, 0xA2, 0x05, 0x81, 0x80, 0x00, 0x20, 0xE0, 0x80, 0x00, 0x25, 0x8C, 0x00, 0x00, 0x00, 0x00, 0x84, 0x01, 0x19, 0x05, 0x4C, 0x91, 0xBE, 0x05, 0x0F, 0x90, 0x9E, 0x05, 0x4F, 0x81, 0x0D, 0x05, 0x0F, 0x10, 0x9E, 0x05, 0x4F, 0x12, 0xDE, 0x0C, 0x4E, 0x00, 0x7A, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0E, 0x00, 0x2E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x3A, 0x06, 0x08, 0x10, 0x7E, 0x06, 0x18, 0x40, 0x31, 0xF1, 0x6C, 0x80, 0x01, 0x88, 0x00, 0x00, 0x20, 0x00, 0x00, 0x21, 0x02, 0x00, 0x04, 0x41, 0x0F, 0xFC, 0x6C, 0x80, 0x21, 0x81, 0x82, 0x04, 0x23, 0xFD, 0x74, 0xA2, 0x05, 0x81, 0x80, 0x01, 0x25, 0xE0, 0xAC, 0x80, 0x25, 0x8C, 0x02, 0x04, 0x23, 0xFC, 0x74, 0xA6, 0x41, 0x83, 0x80, 0x01, 0x25, 0xE1, 0xAC, 0x80, 0x21, 0x8E, 0x06, 0x04, 0x23, 0x06, 0x04, 0x90, 0xAE, 0xE0, 0x34, 0xA2, 0x05, 0x81, 0x80, 0x00, 0x20, 0xE0, 0x80, 0x00, 0x25, 0x8C, 0x00, 0x00, 0x00, 0x00, 0x84, 0x01, 0x19, 0x05, 0x4C, 0x90, 0xCE, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0D, 0x00, 0x11, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x26, 0x06, 0x08, 0x00, 0xED, 0x06, 0x18, 0x50, 0x31, 0xF6, 0x62, 0x80, 0x01, 0x88, 0x02, 0x44, 0x00, 0xF6, 0x78, 0x80, 0x21, 0x81, 0x80, 0x47, 0x02, 0x03, 0x02, 0x00, 0xEF, 0xFA, 0x7A, 0xA2, 0x05, 0x81, 0x82, 0x4A, 0x00, 0xF6, 0x41, 0x00, 0x25, 0x8C, 0x00, 0x47, 0x02, 0xFA, 0x78, 0xA6, 0x41, 0x83, 0x82, 0x4A, 0x00, 0xF6, 0x43, 0x00, 0x21, 0x8E, 0x04, 0x47, 0x02, 0x06, 0x04, 0x91, 0x0E, 0xFA, 0x40, 0x22, 0x05, 0x81, 0x82, 0x4A, 0x00, 0xE0, 0x01, 0x00, 0x25, 0x8C, 0x00, 0x01, 0x02, 0x00, 0x84, 0x01, 0x19, 0x05, 0x4C, 0x91, 0x2E, 0x0C, 0x4C, 0x00, 0x7B, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0E, 0x00, 0x35, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x1F, 0x00, 0x4E, 0x06, 0x08, 0x12, 0xBE, 0x06, 0x18, 0x40, 0x31, 0xF1, 0x6C, 0x80, 0x01, 0x88, 0x00, 0x01, 0x22, 0xF0, 0x6C, 0x80, 0x21, 0x81, 0x82, 0x04, 0x23, 0x00, 0x04, 0x41, 0x0E, 0x06, 0x04, 0x91, 0x6E, 0xE0, 0x34, 0xA2, 0x05, 0x81, 0x80, 0x00, 0x20, 0xE0, 0x80, 0x00, 0x25, 0x8C, 0x00, 0x00, 0x00, 0x00, 0x84, 0x01, 0x19, 0x05, 0x4C, 0x91, 0x8E, 0x06, 0x00, 0x10, 0xCE, 0x06, 0x00, 0x90, 0xFE, 0x0D, 0x10, 0xFC, 0xC0, 0x06, 0x00, 0x11, 0x2E, 0x06, 0x00, 0x91, 0x5E, 0x0D, 0x10, 0xFC, 0xC4, 0x06, 0x00, 0x11, 0x8E, 0x06, 0x00, 0x91, 0xBE, 0x0D, 0x10, 0xFC, 0xC8, 0x06, 0x00, 0x11, 0xCE, 0x06, 0x00, 0x91, 0xDE, 0x0D, 0x10, 0xFC, 0xCC, 0x08, 0x80, 0x00, 0x10, 0x08, 0x82, 0x00, 0x14, 0x00, 0x00, 0x20, 0x01, 0x00, 0x00, 0x21, 0x01, 0x09, 0x80, 0x00, 0x10, 0x09, 0x82, 0x00, 0x14, 0x00, 0x00, 0x00, 0x02, 0x0C, 0x10, 0xF4, 0x60, 0x02, 0xC2, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Program>
+        <Register>
+            <Name>DM0 Data</Name>
+            <Address>0</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>512</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x58, 0x00, 0x00, 0x00, 0x58, 0x00, 0x00, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x44, 0x00, 0x00, 0x00, 0x44, 0x00, 0x00, 0x00, 0x38, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x19, 0x99, 0x9A, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x20, 0x8A, 0x00, 0x00, 0x06, 0x9E, 0x00, 0x00, 0x0D, 0x3C, 0x00, 0x00, 0x06, 0x9E, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0x00, 0x05, 0x35, 0x00, 0x00, 0x0A, 0x69, 0x00, 0x00, 0x05, 0x35, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x00, 0x00, 0x05, 0x42, 0x00, 0x00, 0x0A, 0x83, 0x00, 0x00, 0x05, 0x42, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0x00, 0x05, 0x35, 0x00, 0x00, 0x0A, 0x69, 0x00, 0x00, 0x05, 0x35, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x01, 0x74, 0xB0, 0xDD, 0xFD, 0x16, 0x9E, 0x47, 0x01, 0x74, 0xB0, 0xDD, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0xD1, 0x94, 0x59, 0xFE, 0x5C, 0xD7, 0x4F, 0x00, 0xD1, 0x94, 0x59, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0x00, 0x06, 0x9E, 0x00, 0x00, 0x0D, 0x3C, 0x00, 0x00, 0x06, 0x9E, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0x00, 0x05, 0x35, 0x00, 0x00, 0x0A, 0x69, 0x00, 0x00, 0x05, 0x35, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x00, 0x00, 0x05, 0x42, 0x00, 0x00, 0x0A, 0x83, 0x00, 0x00, 0x05, 0x42, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0x00, 0x05, 0x35, 0x00, 0x00, 0x0A, 0x69, 0x00, 0x00, 0x05, 0x35, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x01, 0x74, 0xB0, 0xDD, 0xFD, 0x16, 0x9E, 0x47, 0x01, 0x74, 0xB0, 0xDD, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0xD1, 0x94, 0x59, 0xFE, 0x5C, 0xD7, 0x4F, 0x00, 0xD1, 0x94, 0x59, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>DM1 Data</Name>
+            <Address>24576</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>512</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xFE, 0x3B, 0x1B, 0xFE, 0x03, 0x89, 0xCB, 0x00, 0xFE, 0x3B, 0x1B, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0xFB, 0xCC, 0x6F, 0xFE, 0x08, 0x67, 0x21, 0x00, 0xFB, 0xCC, 0x6F, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x00, 0xFE, 0x3B, 0x1B, 0xFE, 0x03, 0x89, 0xCB, 0x00, 0xFE, 0x3B, 0x1B, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0xFB, 0xCC, 0x6F, 0xFE, 0x08, 0x67, 0x21, 0x00, 0xFB, 0xCC, 0x6F, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x00, 0x04, 0x3E, 0x70, 0x00, 0x08, 0x7C, 0xE0, 0x00, 0x04, 0x3E, 0x70, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0x04, 0x3E, 0x70, 0x00, 0x08, 0x7C, 0xE0, 0x00, 0x04, 0x3E, 0x70, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0xFE, 0x3B, 0x1B, 0xFE, 0x03, 0x89, 0xCB, 0x00, 0xFE, 0x3B, 0x1B, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0xFB, 0xCC, 0x6F, 0xFE, 0x08, 0x67, 0x21, 0x00, 0xFB, 0xCC, 0x6F, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x00, 0xFE, 0x3B, 0x1B, 0xFE, 0x03, 0x89, 0xCB, 0x00, 0xFE, 0x3B, 0x1B, 0xFF, 0x03, 0x7F, 0x48, 0x01, 0xFC, 0x6B, 0xB2, 0x00, 0xFB, 0xCC, 0x6F, 0xFE, 0x08, 0x67, 0x21, 0x00, 0xFB, 0xCC, 0x6F, 0xFF, 0x08, 0x5C, 0xB8, 0x01, 0xF7, 0x8E, 0x76, 0x00, 0x04, 0x3E, 0x70, 0x00, 0x08, 0x7C, 0xE0, 0x00, 0x04, 0x3E, 0x70, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0x04, 0x3E, 0x70, 0x00, 0x08, 0x7C, 0xE0, 0x00, 0x04, 0x3E, 0x70, 0xFF, 0x54, 0x5A, 0x6F, 0x01, 0x9A, 0xAB, 0xD1, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_ADDRESS</Name>
+            <Address>62468</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_PULSE</Name>
+            <Address>62465</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_CORE</Name>
+            <Address>62466</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_CORE</Name>
+            <Address>62466</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Start Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+    </IC>
+</Schematic>
