@@ -1,0 +1,54 @@
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.2.1,1755  (built 8/23/2018)
+
+##### Compile Started: Saturday, December 29, 2018 1:34:01 PM #####
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.2.1,1755  (built 8/23/2018)
+
+##### Compile Started: Saturday, December 29, 2018 1:34:01 PM #####
+##### Compile succeeded:  0 errors, 0 warnings #####
+
+##### Summary #####
+DM0 RAM used:       02344    (of 40960)
+DM1 RAM used:       06067    (of 40960)
+PM  RAM used(Data): 00000    (of 24576)
+PM  RAM used(Inst): 00722    (of 24576) 448 instructions (32bit: 174  64bit: 274)
+Total PM used:      00722    (of 24576)
+
+--------------------------------------------------------------------------------------
+STREAM                        Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        16      0       0       
+Crossover1                    110       180       92      110     0
+Decimation_Filter             72        66        200     104     0
+Interpolation_Filter          72        66        200     102     0
+FRAMEWORK                     62        44        8       8       0
+FIR_SUB                       160       30        600     302     0
+FIR_MID                       160       30        600     302     0
+FIR_High                      160       30        600     300     0
+2xN-1                         13        23        5       2       0
+S Splitter1                   14        22        2       4       0
+Output1                       12        20        0       0       0
+Splitter for sub channel      12        18        2       2       0
+Slew vol 1                    11        18        0       4       0
+Single 1                      10        17        3       2       0
+Nx2-1                         10        14        7       2       0
+Delay_High                    10        14        1       3844    0
+Delay_MID                     10        14        1       964     0
+AsrcIn2                       8         14        0       4       0
+Shift1                        4         6         1       1       0
+Input1                        4         6         0       2       0
+AsrcOut1_2                    4         6         0       0       0
+AsrcOut2_2                    4         6         0       0       0
+AsrcOut1_4                    4         6         0       0       0
+AsrcOut1_3                    4         6         0       0       0
+ReadBack1_2                   3         5         1       1       0
+ReadBack1                     3         5         1       1       0
+AsrcIn2_2                     3         5         0       1       0
+ADC In1                       4         5         0       1       0
+--------------------------------------------------------------------------------------
+Total                         943       676       2340    6063    0
+--------------------------------------------------------------------------------------
+(% Fs=48.0kHz)                16%       3%        6%      15%     0%
+
