@@ -1,19 +1,19 @@
 ADAU145X Assembler, Analog Devices Inc.
 Version: 4.2.1,1755  (built 8/23/2018)
 
-##### Compile Started: Saturday, December 29, 2018 8:38:52 PM #####
+##### Compile Started: Friday, February 15, 2019 8:48:05 PM #####
 ADAU145X Assembler, Analog Devices Inc.
 Version: 4.2.1,1755  (built 8/23/2018)
 
-##### Compile Started: Saturday, December 29, 2018 8:38:52 PM #####
+##### Compile Started: Friday, February 15, 2019 8:48:05 PM #####
 ##### Compile succeeded:  0 errors, 0 warnings #####
 
 ##### Summary #####
-DM0 RAM used:       00151    (of 40960)
-DM1 RAM used:       00174    (of 40960)
+DM0 RAM used:       00155    (of 40960)
+DM1 RAM used:       00186    (of 40960)
 PM  RAM used(Data): 00000    (of 24576)
-PM  RAM used(Inst): 00460    (of 24576) 342 instructions (32bit: 224  64bit: 118)
-Total PM used:      00460    (of 24576)
+PM  RAM used(Inst): 00468    (of 24576) 350 instructions (32bit: 232  64bit: 118)
+Total PM used:      00468    (of 24576)
 
 --------------------------------------------------------------------------------------
 STREAM                        Inst      Inst      DM0     DM1     PM
@@ -21,9 +21,9 @@ Instance                      (cycles)  (size)
 --------------------------------------------------------------------------------------
 STACK                          -         -        16      0       0       
 Crossover1                    110       154       92      110     0
-FRAMEWORK                     62        44        8       8       0
-HighOrder2                    23        40        5       14      0
-HighOrder1                    23        40        5       14      0
+FRAMEWORK                     66        48        12      8       0
+HighOrder2                    23        40        5       20      0
+HighOrder1                    23        40        5       20      0
 MX1_2                         18        24        5       2       0
 MX1                           18        24        5       2       0
 2xN-1                         13        17        5       2       0
@@ -39,7 +39,7 @@ ReadBack1                     3         3         1       1       0
 ReadBack1_2                   3         3         1       1       0
 AsrcIn1                       3         3         0       2       0
 --------------------------------------------------------------------------------------
-Total                         333       414       147     170     0
+Total                         337       418       151     182     0
 --------------------------------------------------------------------------------------
 (% Fs=48.0kHz)                6%        2%        1%      1%      0%
 
